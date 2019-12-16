@@ -15,7 +15,8 @@
 
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation %>
-
+      
+      <%= link_to "terms of service", tos_path %>
       <%= f.submit "Create my account", class: "btn btn-primary" %>
     <% end %>
   </div>

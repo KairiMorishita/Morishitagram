@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20191208080349) do
+ActiveRecord::Schema.define(version: 20191216123259) do
 
   create_table "users", force: :cascade do |t|
     t.string "provider"
     t.string "uid"
     t.string "image"
     t.string "name"
+    t.string "username"
   end
 
 end

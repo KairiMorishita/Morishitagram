@@ -1,4 +1,9 @@
 class User < ApplicationRecord
+  validates :username, presence: true, length: { minimum: 3, maximum: 20 }
+  validates :name, presence: true
+  has_secure_password
+  validates :password, presence: true, length: { minimum: 6 }
+  
   devise :omniauthable, omniauth_providers: %i[facebook]
   
   def self.from_omniauth(auth)

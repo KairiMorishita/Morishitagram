@@ -1,24 +1,13 @@
-# README
+#ポテパンサブ課題　レポート
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+・苦労した点
+-railsチュートリアルの内容がまだ完璧に理解できておらず、調べる作業に時間をかけてしまいました。
+-Facebookログインの実装
 
-Things you may want to cover:
+・学んだ点
+-調べる作業に時間をかけた分、調べ方の重要性を学べました。
+-決められた作業時間の中で実装の優先順位をつけて進める事が大切だと感じました。
+-DBの設計やモデリングの理解を強制的に復習する事ができました。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+・自慢したい・相談したい点
+-まだ実装できていない機能も多く自慢できる部分は特にありませんが、アプリ名のみセンスを感じております。
